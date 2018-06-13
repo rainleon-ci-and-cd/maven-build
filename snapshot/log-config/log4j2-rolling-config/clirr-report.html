@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Date-Revision-yyyymmdd" content="20180614" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>log4j2-rolling-config &#x2013; Surefire Report</title>
+    <title>log4j2-rolling-config &#x2013; Clirr Results</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.5.min.css" />
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
@@ -165,10 +165,12 @@
         Project Reports</a>
                     <ul class="nav nav-list">
                     
-      <li class="active">
+      <li>
   
-            <a href="#"><span class="none"></span>Surefire Report</a>
-          </li>
+                          <a href="surefire-report.html" title="Surefire Report">
+          <span class="none"></span>
+        Surefire Report</a>
+            </li>
                     
       <li>
   
@@ -184,12 +186,10 @@
         Checkstyle</a>
             </li>
                     
-      <li>
+      <li class="active">
   
-                          <a href="clirr-report.html" title="Clirr">
-          <span class="none"></span>
-        Clirr</a>
-            </li>
+            <a href="#"><span class="none"></span>Clirr</a>
+          </li>
               </ul>
         </li>
             </ul>
@@ -212,46 +212,31 @@
                 
         <div id="bodyColumn"  class="span10" >
                                   
-            <script type="text/javascript">
-//<![CDATA[
-function toggleDisplay(elementId) {
- var elm = document.getElementById(elementId + '-error');
- if (elm == null) {
-  elm = document.getElementById(elementId + '-failure');
- }
- if (elm && typeof elm.style != "undefined") {
-  if (elm.style.display == "none") {
-   elm.style.display = "";
-   document.getElementById(elementId + '-off').style.display = "none";
-   document.getElementById(elementId + '-on').style.display = "inline";
-  } else if (elm.style.display == "") {   elm.style.display = "none";
-   document.getElementById(elementId + '-off').style.display = "inline";
-   document.getElementById(elementId + '-on').style.display = "none";
-  } 
- } 
- }
-//]]>
-</script>
+            <div class="section">
+<h2><a name="Clirr_Results"></a>Clirr Results</h2>
+<p>The following document contains the results of <a class="externalLink" href="http://clirr.sourceforge.net/">Clirr</a>.</p>
+<ul>
+<li>Current Version: 0.0.3.OSS-SNAPSHOT</li>
+<li>Comparison Version: 0.0.2.OSS</li></ul></div>
 <div class="section">
-<h2><a name="Surefire_Report"></a>Surefire Report</h2></div>
-<div class="section">
-<h2><a name="Summary"></a>Summary</h2><a name="Summary"></a><br />
-<table border="1" class="table table-striped">
+<h2><a name="Summary"></a>Summary</h2>
+<table border="0" class="table table-striped">
 <tr class="a">
-<th>Tests</th>
-<th>Errors </th>
-<th>Failures</th>
-<th>Skipped</th>
-<th>Success Rate</th>
-<th>Time</th></tr>
+<th>Severity</th>
+<th>Number</th></tr>
 <tr class="b">
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0%</td>
-<td>0</td></tr></table><br />
-<p>Note: failures are anticipated and checked for with assertions while errors are unanticipated.</p><br /></div>
+<td><img alt="Error" src="images/icon_error_sml.gif" />&#160;Error</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img alt="Warning" src="images/icon_warning_sml.gif" />&#160;Warning</td>
+<td>0</td></tr></table>
+<p><i>(The results have been filtered to omit less severe results)</i></p></div>
+<div class="section">
+<h2><a name="API_Incompatibilities"></a>API Incompatibilities</h2>
+<p>No results for the given severities.</p></div>
+<div class="section">
+<h2><a name="API_Changelog"></a>API Changelog</h2>
+<p>No results for the given severities.</p></div>
                   </div>
             </div>
           </div>
